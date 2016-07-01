@@ -14,11 +14,11 @@
 ***********************************************/
 
 // 7 variables to control behavior
-var Book_Image_Width=NaN;
-var Book_Image_Height=NaN;
+var Book_Image_Width=827;
+var Book_Image_Height=1169;
 var Book_Border=true;
-var Book_Border_Color="gray";
-var Book_Speed=15;
+var Book_Border_Color="#DDDDDD";
+var Book_Speed=60;
 var Book_NextPage_Delay=3*1000; //1 second=1000
 var Book_Vertical_Turn=0;
 
@@ -26,7 +26,22 @@ var Book_Vertical_Turn=0;
 // If Link is not needed keep it ""
 
 Book_Image_Sources=new Array(
-"undefined","" // NOTE No comma after last line
+"z_image/Brochure2016Spring_0608-1.png","",
+"z_image/Brochure2016Spring_0608-2.png","",
+"z_image/Brochure2016Spring_0608-3.png","",
+"z_image/Brochure2016Spring_0608-4.png","",
+"z_image/Brochure2016Spring_0608-5.png","",
+"z_image/Brochure2016Spring_0608-6.png","",
+"z_image/Brochure2016Spring_0608-7.png","",
+"z_image/Brochure2016Spring_0608-8.png","",
+"z_image/Brochure2016Spring_0608-9.png","",
+"z_image/Brochure2016Spring_0608-10.png","",
+"z_image/Brochure2016Spring_0608-11.png","",
+"z_image/Brochure2016Spring_0608-12.png","",
+"z_image/Brochure2016Spring_0608-13.png","",
+"z_image/Brochure2016Spring_0608-14.png","",
+"z_image/Brochure2016Spring_0608-15.png","",
+"z_image/Brochure2016Spring_0608-16.png","" // NOTE No comma after last line
 );
 
 /***************** DO NOT EDIT BELOW **********************************/
@@ -123,7 +138,7 @@ function B_Rstrt(){B_Stppd=false}
 
 <body onload="ImageBook()">
 <!--CMBookFlipIS-->
-<div id="Book" style="position:relative"> <img src="../../zavio_book/placeholder.gif" width="NaN" height="NaN" /> <br />
+<div id="Book" style="position:relative"> <img src="z_image/Brochure2016Spring_0608-1.png" width="1658" height="1171" /> <br />
   <br />
   Hold the mouse over an image to pause the slide show. </div>
 <!--CMBookFlipIE-->
